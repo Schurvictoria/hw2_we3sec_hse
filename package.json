@@ -1,0 +1,22 @@
+{
+  "name": "crafting",
+  "version": "1.0.0",
+  "description": "Solidity homework: upgradeable ERC-1155 crafting workshop",
+  "scripts": {
+    "build": "node node_modules/@foundry-rs/forge/bin.mjs build",
+    "test": "node node_modules/@foundry-rs/forge/bin.mjs test --force",
+    "fmt": "node node_modules/@foundry-rs/forge/bin.mjs fmt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "@foundry-rs/forge": "1.7.1",
+    "@openzeppelin/contracts": "5.4.0",
+    "@openzeppelin/contracts-upgradeable": "5.4.0",
+    "@openzeppelin/foundry-upgrades": "0.4.2",
+    "@openzeppelin/upgrades-core": "1.45.0"
+  },
+  "private": true
+}
